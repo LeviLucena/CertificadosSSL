@@ -57,7 +57,7 @@
             <input type="text" class="form-control" name="OBS">
         </div>
 
-        <button type="submit" name="submit_update" class="btn btn-primary">
+        <button type="submit" name="submit_update" class="btn btn-primary" onclick="updateRecord()">
             <span class="glyphicon glyphicon-floppy-disk"></span> Atualizar
         </button>
     </form>
