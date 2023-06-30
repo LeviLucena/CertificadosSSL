@@ -36,7 +36,8 @@ Contribuição:
 Contribuições para aprimorar este projeto são bem-vindas. Sinta-se à vontade para enviar solicitações de pull com melhorias, correções de bugs ou novos recursos.
 
 Autor:
-[LeviLucena<]
+Levi Lucena
 
 Entre em Contato:
-[linkedin.com/in/levilucena<]
+[LinkedIn](https://www.linkedin.com/in/levilucena)
+
