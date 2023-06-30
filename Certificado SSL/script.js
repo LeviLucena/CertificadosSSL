@@ -216,7 +216,53 @@ function inserirRegistro() {
     $('#OBS').val(data.OBS);
 
     }
+
+   function updateRecord() {
+        var ID = $('#ID').val();
+        var URL = $('#URL').val();
+        var STATUS = $('#STATUS').val();
+        var DOMINIO = $('#DOMINIO').val();
+        var INICIO = $('#INICIO').val();
+        var FIM = $('#FIM').val();
+        var PROXY = $('#PROXY').val();
+        var OBS = $('#OBS').val();
     
+        // Crie um objeto com os dados a serem enviados para o servidor
+        var data = {
+            ID: ID,
+            URL: URL,
+            STATUS: STATUS,
+            DOMINIO: DOMINIO,
+            INICIO: INICIO,
+            FIM: FIM,
+            PROXY: PROXY,
+            OBS: OBS
+        };
+    
+        // Envie uma requisição AJAX para o arquivo update.php para atualizar o registro no banco de dados
+        $.ajax({
+            url: 'update.php',
+            type: 'POST',
+            data: data,
+            dataType: 'json',
+            success: function(response) {
+                if (response.status === 'success') {
+                    // Atualização bem-sucedida
+                    alert('Registro atualizado com sucesso.');
+                    // Faça qualquer ação adicional necessária após a atualização do registro
+                    // Redirecione para outra página, atualize a tabela, etc.
+                } else {
+                    // Falha na atualização
+                    alert('Falha ao atualizar o registro.');
+                }
+            },
+            error: function() {
+                alert('Erro de comunicação com o servidor.');
+            }
+        });
+    }
+
+
     function deleteRecord(ID) {
         // Implemente a função de exclusão do registro
         console.log("Excluir registro com ID: " + ID);
