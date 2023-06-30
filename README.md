@@ -36,8 +36,5 @@ Contribuição:
 Contribuições para aprimorar este projeto são bem-vindas. Sinta-se à vontade para enviar solicitações de pull com melhorias, correções de bugs ou novos recursos.
 
 Autor:
-Levi Lucena
-
-Entre em Contato:
-[LinkedIn](https://www.linkedin.com/in/levilucena)
+Levi Lucena [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/levilucena/)](https://www.linkedin.com/in/levilucena/)
 
