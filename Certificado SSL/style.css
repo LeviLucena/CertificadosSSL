@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .image-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+  }
+  
+  .form-group label {
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+
+  .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagem {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+        
+.panel {
+    display: flex;
+    flex-direction: column; /* Altera o fluxo para coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.counter {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Altera o fluxo para coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    z-index: 2; /* Define a ordem de empilhamento */
+    position: relative; /* Permite posicionar sobre as demais divs */
+}
+
+.counter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.counter p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.category {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+.category h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Cores de fundo dos quadros */
+.category:nth-child(1) {
+    background-color: #e6f2ff;
+}
+
+.category:nth-child(2) {
+    background-color: #f2e6ff;
+}
+
+.category:nth-child(3) {
+    background-color: #e6fff2;
+}
+
+.category:nth-child(4) {
+    background-color: #ffe6f2;
+}
+
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    body {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      width: 80%;
+    }
+  }
+
+.zoom-90 {
+    zoom: 0.9;
+}
+  
+  /* Adicione outras regras de mídia conforme necessário para ajustar o layout em diferentes tamanhos de tela */
+
+.gray-row {
+    background-color: #f2f2f2; /* Cinza */
+}
+
+.white-row {
+    background-color: #ffffff; /* Branco */
+}
