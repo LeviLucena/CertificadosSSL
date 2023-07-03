@@ -54,7 +54,7 @@
 
         <div class="form-group">
         <label for="OBS" class="control-label">Observações:</label>
-            <input type="text" class="form-control" name="OBS">
+            <input type="text" class="form-control" name="OBS id="OBS">
         </div>
 
         <button type="submit" name="submit_update" class="btn btn-primary" onclick="updateRecord()">
