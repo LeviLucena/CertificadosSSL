@@ -2,6 +2,8 @@
 
 Este projeto é um sistema simples para gerenciar certificados SSL de sites. Ele permite adicionar, editar e excluir registros de certificados SSL, bem como exibir uma lista de todos os certificados armazenados no banco de dados.
 
+![Captura de Tela - Gerenciamento de Certificado SSL (2)](https://github.com/LeviLucena/CertificadosSSL/assets/34045910/0045df0a-d38b-4b86-a75c-b9cf7733b9f0)
+
 Funcionalidades Principais:
 - Adicionar novos certificados SSL, fornecendo informações como URL, status, domínio, datas de início e término, proxy e observações.
 - Editar certificados existentes para atualizar suas informações.
