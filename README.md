@@ -1,4 +1,4 @@
-# Gerenciamento de Certificados SSL - Projeto
+# Gerenciamento de Certificados SSL CRUD - Projeto
 
 Este projeto é um sistema simples para gerenciar certificados SSL de sites. Ele permite adicionar, editar e excluir registros de certificados SSL, bem como exibir uma lista de todos os certificados armazenados no banco de dados.
 
